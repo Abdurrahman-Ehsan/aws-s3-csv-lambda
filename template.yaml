@@ -1,0 +1,8 @@
+
+Resources:
+  BillingBucketParser:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: S3_Bucket_Object_Parser(17).lambda_handler
+      Runtime: python3.14
+      CodeUri: .
